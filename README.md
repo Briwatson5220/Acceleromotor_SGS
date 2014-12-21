@@ -9,8 +9,10 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial 
 angular velocity at a constant rate of 50Hz."
 
-Raw data inlcudes 561 time and frequency domain variables for each measurement. The attached process extracts just the Mean and Standard Deviation 
-information and summarizes that for each Subject and Activity. 
+Raw data inlcudes 561 time and frequency domain variables for each measurement. The attached script extracts just the Mean and Standard Deviation 
+information and summarizes that for each Subject and Activity. Extract [Acceleromotor data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) to working directory
+
+
 
 You can read the data set into R using the following code... (Thanks [David Hood](https://class.coursera.org/getdata-016/forum/thread?thread_id=50)!)
 
