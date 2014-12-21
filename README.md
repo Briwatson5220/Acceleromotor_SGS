@@ -12,9 +12,10 @@ angular velocity at a constant rate of 50Hz."
 Raw data inlcudes 561 time and frequency domain variables for each measurement. The attached script extracts just the Mean and Standard Deviation 
 information and summarizes that for each Subject and Activity. Extract [Acceleromotor data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) to working directory
 
+This script loads the Measurement, Activity and Subject information. Activity labels are added to give descriptive names. Each measure name is reviewed
+and only ones including "mean" or "std" are included in the final data set. 
 
-
-You can read the data set into R using the following code... (Thanks [David Hood](https://class.coursera.org/getdata-016/forum/thread?thread_id=50)!)
+You can read the summary data set into R using the following code... (Thanks [David Hood](https://class.coursera.org/getdata-016/forum/thread?thread_id=50)!)
 
     data <- read.table(file_path, header = TRUE) 
     View(data)
